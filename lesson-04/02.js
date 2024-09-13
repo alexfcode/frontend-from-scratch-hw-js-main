@@ -15,9 +15,9 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function includesElement(array, element) {
-    return array.indexOf(element) >= 0 
-}
+// function includesElement(array, element) {
+//     return array.indexOf(element) >= 0 
+// }
 
 function findUniqueElements(array) {
     newArray = [];
