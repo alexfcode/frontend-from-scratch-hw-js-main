@@ -20,7 +20,7 @@
 // }
 
 function findUniqueElements(array) {
-    newArray = [];
+    const newArray = [];
     for (let i = 0; i < array.length; i++) {
         if (!includesElement(newArray, array[i])) {
             newArray.push(array[i])
@@ -29,4 +29,4 @@ function findUniqueElements(array) {
     return newArray
 }
 
-console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
+//console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
