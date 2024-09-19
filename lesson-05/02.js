@@ -36,9 +36,14 @@ const gallery = {
 }
 
 function updateGallery(object, key, newValue) {
-  if (key in object) {
+
     object[key] = newValue
-  } else {
-    object[key] = newValue
-  }
+
 }
+
+console.log(gallery);
+updateGallery(gallery, 'Mona Lisa', "Niger")
+console.log(gallery);
+updateGallery(gallery, "Nigers!!!", "Bob Ivnov")
+console.log(gallery);
+
