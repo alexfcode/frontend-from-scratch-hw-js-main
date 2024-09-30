@@ -4,21 +4,18 @@
  */
 
 function isNumeric(str) {
-  numbers = '1234567890'
-  answer = true
+  const numbers = '1234567890'
+  let answer = true
   for (n of str) {
-    if (numbers.includes(n)) {
-      answer = true
-    } else {
+    if (!numbers.includes(n)) {
       return false
-    }
-
   }
+}
   return answer
  
 }
 
-console.log(isNumeric("1234"));
+// console.log(isNumeric("123f4"));
 
 
 
