@@ -6,4 +6,19 @@
   Другой вариант - использовать метод split строк, и метод массива join.
 */
 
-function capitalizeWords() {}
+function capitalizeWords(word) {
+  let str = word[0].toUpperCase()
+  console.log(str);
+  
+  for (let i = 1; i < word.length; i++) {
+    if (word[i - 1] = " ") {
+      str += word[i].toUpperCase()
+    } else {
+      str += word[i]
+    }
+    console.log
+  }
+  return str
+}
+
+capitalizeWords('niger')
