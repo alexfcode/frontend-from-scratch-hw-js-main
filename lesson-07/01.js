@@ -8,10 +8,9 @@
 
 function capitalizeWords(word) {
   let str = word[0].toUpperCase()
-  console.log(str);
-  
+ 
   for (let i = 1; i < word.length; i++) {
-    if (word[i - 1] = " ") {
+    if (word[i - 1] === " ") {
       str += word[i].toUpperCase()
     } else {
       str += word[i]
@@ -20,5 +19,3 @@ function capitalizeWords(word) {
   }
   return str
 }
-
-capitalizeWords('niger')
