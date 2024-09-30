@@ -4,9 +4,9 @@
  */
 
 function isNumeric(str) {
-  const numbers = '1234567890'
+  const numbers = '1234567890.'
   let answer = true
-  for (n of str) {
+  for (let n of str) {
     if (!numbers.includes(n)) {
       return false
   }
