@@ -46,9 +46,7 @@ startButton.addEventListener('click', () => {
       } else {
         countdownDisplay.innerText = counter
       }
-  
-  
-    }, 1000)
+      }, 1000)
   }
 })
 
