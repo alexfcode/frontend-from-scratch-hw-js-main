@@ -34,7 +34,7 @@ const filter = (array, callback) => {
   }
 
   const callback = (element, index) => {
-    return element % 2 !== 0
+    // return element % 2 !== 0
   }
 
   // console.log(filter(array, callback));
