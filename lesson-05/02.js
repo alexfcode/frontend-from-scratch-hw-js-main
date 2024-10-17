@@ -41,9 +41,3 @@ function updateGallery(object, key, newValue) {
 
 }
 
-console.log(gallery);
-updateGallery(gallery, 'Mona Lisa', "Niger")
-console.log(gallery);
-updateGallery(gallery, "Nigers!!!", "Bob Ivnov")
-console.log(gallery);
-

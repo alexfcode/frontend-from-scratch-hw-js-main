@@ -18,6 +18,6 @@ if ((isAdmin || isVerifiedUser) & (hasSpecialPermission || hasTemporaryPass)) {
     isAccess = true
 }
 
-console.log(isAccess);
+// console.log(isAccess);
 
 // your code

@@ -37,5 +37,5 @@ const filter = (array, callback) => {
     return element % 2 !== 0
   }
 
-  console.log(filter(array, callback));
+  // console.log(filter(array, callback));
   
