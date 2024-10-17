@@ -22,5 +22,20 @@ const oddNumbers = filter(numbers, (element, index) => {
 
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
+array = [1, 2, 3, 4, 5]
 
-const filter = () => {}
+const filter = (array, callback) => {
+  const array2 = []
+  for (let i = 0; i < array.length; i++)
+    if (callback(array[i], i)) {
+      array2.push(array[i])
+    }
+    return array2
+  }
+
+  const callback = (element, index) => {
+    return element % 2 !== 0
+  }
+
+  console.log(filter(array, callback));
+  
