@@ -22,7 +22,7 @@ const oddNumbers = filter(numbers, (element, index) => {
 
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
-array = [1, 2, 3, 4, 5]
+const array = [1, 2, 3, 4, 5]
 
 const filter = (array, callback) => {
   const array2 = []
