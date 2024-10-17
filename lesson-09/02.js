@@ -37,5 +37,5 @@ const callback = (element, index) => {
   return element * 2
 }
 
-console.log(map([1, 2, 3, 4], callback));
+// console.log(map([1, 2, 3, 4], callback));
 
