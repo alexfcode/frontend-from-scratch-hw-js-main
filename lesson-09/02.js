@@ -34,7 +34,7 @@ const map = (array, callback) => {
 }
 
 const callback = (element, index) => {
-  return element * 2
+  // return element * 2
 }
 
 // console.log(map([1, 2, 3, 4], callback));
